@@ -46,7 +46,7 @@ ul {
     color:  #404BBF;
     
 }
-.navigation-list-contacts:focus {
+.navigation-list-link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
