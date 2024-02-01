@@ -2,6 +2,8 @@ body {
     font-family:'Roboto', sans-serif;
     color: #434455;
     background-color: #fff;
+    line-height: 150%;
+    letter-spacing: 0.32px;
 }
 
 a {
@@ -11,6 +13,8 @@ a {
 ul {
     list-style-type: none;
 }
+
+/* header */
 
 .logo {
     text-transform: uppercase;
@@ -32,8 +36,8 @@ ul {
 .navigation-list-contacts { 
     color: #2E2F42;
     font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0.32px;
+    /* line-height: 150%;
+    letter-spacing: 0.32px; */
 }
 
 .navigation-list-studio:hover,
@@ -49,11 +53,52 @@ ul {
 
 .address-link {
     color: #434455;
-    line-height: 150%;
-    letter-spacing: 0.32px;
+    /* line-height: 150%;
+    letter-spacing: 0.32px; */
 }
 
-.address-link:hover{
+.address-link:hover {
     color: #404BBF;
 }
+
+/* First section */
+
+.page-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143;
+    letter-spacing: 1.12px;
+}
+.central-buttom {
+    color: #FFF;
+    font-weight: 500;
+    /* line-height: 150%; */
+    letter-spacing: 0.64px;
+}
+
+.first-section {
+    background-color: #2E2F42;
+}
+
+/* Second section, Our team, Our Portfolio section */
+
+.section-title-hidden {
+    visibility: hidden;
+}
+
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-section {
+   background-color: #F4F4FD;
+} 
+
 
