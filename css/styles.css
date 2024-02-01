@@ -101,4 +101,14 @@ ul {
    background-color: #F4F4FD;
 } 
 
+.footer-text {
+    color: #F4F4FD;
+}
 
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer .logo-studio {
+    color: #F4F4FD;
+}
